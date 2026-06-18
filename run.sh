@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cargo run
-# rustc $1
-# ./$2
+set -e
 
-# rm $2
+cargo run --bin $2
