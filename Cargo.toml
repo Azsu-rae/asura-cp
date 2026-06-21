@@ -8,5 +8,21 @@ name = "missing_number"
 path = "cses/missing_number.rs"
 
 [[bin]]
+name = "permutations"
+path = "cses/permutations.rs"
+
+[[bin]]
+name = "repetitions"
+path = "cses/repetitions.rs"
+
+[[bin]]
+name = "increasing_array"
+path = "cses/increasing_array.rs"
+
+[[bin]]
 name = "weird_algorithm"
 path = "cses/weird_algorithm.rs"
+
+[[bin]]
+name = "two_sum"
+path = "leetcode/two_sum.rs"
