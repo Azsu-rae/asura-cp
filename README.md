@@ -1,5 +1,4 @@
 
 # Motivation
 
-and Competitive
-Programming and LeetCode problem solutions.
+Competitive programming and LeetCode problems.
