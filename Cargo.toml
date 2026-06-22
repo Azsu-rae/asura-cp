@@ -26,3 +26,7 @@ path = "cses/repetitions.rs"
 [[bin]]
 name = "weird_algorithm"
 path = "cses/weird_algorithm.rs"
+
+[[bin]]
+name = "two_knignts"
+path = "cses/two_knignts.rs"
