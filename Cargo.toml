@@ -30,3 +30,11 @@ path = "cses/weird_algorithm.rs"
 [[bin]]
 name = "two_knignts"
 path = "cses/two_knignts.rs"
+
+[[bin]]
+name = "two_sets"
+path = "cses/two_sets.rs"
+
+[[bin]]
+name = "bit_strings"
+path = "cses/bit_strings.rs"

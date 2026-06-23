@@ -1,0 +1,42 @@
+use std::io;
+
+fn main() {
+    let mut s = String::new();
+    io::stdin().read_line(&mut s).unwrap();
+
+    let n: i64 = s.trim().parse().unwrap();
+    if (n * (n + 1) / 2) % 2 == 1 {
+        println!("NO");
+        return;
+    } else {
+        println!("YES");
+    }
+
+    let mut set1: Vec<i64> = Vec::new();
+    let mut set2: Vec<i64> = Vec::new();
+
+    let mid = n / 2;
+    for step in 1..=mid {
+        if step <= (mid / 2) + n % 2 {
+            set1.push(mid - step + 1);
+            set1.push(mid + step);
+        } else {
+            set2.push(mid - step + 1);
+            set2.push(mid + step);
+        }
+    }
+
+    if n % 2 == 1 {
+        set2.push(n);
+    }
+
+    println!("{}", set1.len());
+    for num in set1 {
+        print!("{} ", num);
+    }
+
+    println!("\n{}", set2.len());
+    for num in set2 {
+        print!("{} ", num);
+    }
+}

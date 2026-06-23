@@ -12,7 +12,7 @@ end = time.time()
 non_optimal = end - start
 
 start = time.time()
-total = n * (n + 1) // 2
+total = n * (n + 1) / 2
 end = time.time()
 optimal = end - start
 
