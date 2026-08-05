@@ -42,3 +42,7 @@ path = "cses/bit_strings.rs"
 [[bin]]
 name = "two_sum"
 path = "leetcode/two_sum.rs"
+
+[[bin]]
+name = "add_two_numbers"
+path = "leetcode/add_two_numbers.rs"

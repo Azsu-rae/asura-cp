@@ -1,18 +1,18 @@
 use std::collections::HashMap;
 use std::io::{self, Read};
 
-fn naive(nums: Vec<i32>, target: i32) -> Vec<i32> {
-    let mut two_sum: Vec<i32> = vec![0, 0];
-    for i in 0..nums.len() {
-        for j in (i + 1)..nums.len() {
-            if nums[i] + nums[j] == target {
-                return vec![j as i32, i as i32];
-            }
-        }
-    }
-
-    unreachable!()
-}
+// fn naive(nums: Vec<i32>, target: i32) -> Vec<i32> {
+//     let mut two_sum: Vec<i32> = vec![0, 0];
+//     for i in 0..nums.len() {
+//         for j in (i + 1)..nums.len() {
+//             if nums[i] + nums[j] == target {
+//                 return vec![j as i32, i as i32];
+//             }
+//         }
+//     }
+//
+//     unreachable!()
+// }
 
 fn idiomatic(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let mut seen = HashMap::new();
