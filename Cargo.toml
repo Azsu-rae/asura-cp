@@ -46,3 +46,7 @@ path = "leetcode/two_sum.rs"
 [[bin]]
 name = "add_two_numbers"
 path = "leetcode/add_two_numbers.rs"
+
+[[bin]]
+name = "longest_substring_without_repeating_chars"
+path = "leetcode/longest_substring_without_repeating_chars.rs"
